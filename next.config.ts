@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+  // If your repo is served from a subpath, add:
+  // basePath: "/liga-ttnb.github.io",
+  // assetPrefix: "/liga-ttnb.github.io/",
 };
 
-export default nextConfig;
+module.exports = nextConfig;
