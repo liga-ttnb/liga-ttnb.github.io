@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npx next dev --turbopack",
-    "build": "npx next build --turbopack",
-    "start": "npx next start",
-    "lint": "eslint"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "serve": "npx serve out"
   },
   "dependencies": {
     "next": "15.5.3",
